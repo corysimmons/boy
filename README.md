@@ -25,6 +25,7 @@ Boy comes with a handy [project launcher](#installation) so you can just `boy fo
   - Force vertical scrollbar to prevent [page bounce](https://css-tricks.com/eliminate-jumps-in-horizontal-centering-by-forcing-a-scroll-bar)
   - `max-width: 100%` to make a plethora of HTML elements [responsive by default](http://unstoppablerobotninja.com/entry/fluid-images)
   - Generic styling for IE9 and below browser warning
+  - Super cool hipster [system font set](https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/) :sunglasses:
 - Polyfills for IE8 and below a la [ie-love](https://github.com/corysimmons/ie-love)
   - One [uglified](https://github.com/mishoo/UglifyJS) inline script (no request)
   - Conditionally loaded so only IE8 and below users will have to download it (even though it's only 25kb)
