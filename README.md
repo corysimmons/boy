@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  A very opinionated, lightweight, up-to-date, version of HTML5 Boilerplate with conditionally loaded polyfills and a nice general CSS reset for amazing CSS3 support back to IE6 without having to lift a finger.
+  A very opinionated, lightweight, up-to-date, version of HTML5 Boilerplate with conditionally loaded polyfills and a nice general CSS reset for amazing CSS3 support in older browsers.
 </p>
 
 ---
