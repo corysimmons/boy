@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="http://corysimmons.github.io/boy/boy-logo.svg">
+  <img src="http://corysimmons.github.io/boy/boy-logo.svg" height="300px">
 </p>
 
 <p align="center">
