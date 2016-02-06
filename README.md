@@ -13,26 +13,29 @@ Boy comes with a handy [project launcher](#installation) so you can just `boy fo
 ### Features
 - A lightweight/2-space batch of [HTML5 Boilerplate](https://html5boilerplate.com/) features
   - [index.html](https://github.com/h5bp/html5-boilerplate/blob/master/dist/index.html)
+  - [.editorconfig](https://github.com/h5bp/html5-boilerplate/blob/master/dist/.editorconfig) (modified to 2 spaces)
   - [.htaccess](https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess)
   - [crossdomain.xml](https://github.com/h5bp/html5-boilerplate/blob/master/dist/crossdomain.xml)
 - [cssnano](http://cssnano.co/)'d CSS reset
   - [Normalize.css](https://necolas.github.io/normalize.css/)
   - [H5BP Reset](https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css)
-  - * reset (it's actually awesome)
+  - `*` reset (it's actually awesome)
     - Apply `box-sizing: border-box` to everything
-    - Remove all `margin` and `padding`
+    - Remove all `margin` and `padding` (like `<figure>`)
   - Force vertical scrollbar to prevent [page bounce](https://css-tricks.com/eliminate-jumps-in-horizontal-centering-by-forcing-a-scroll-bar)
   - `max-width: 100%` to make a plethora of HTML elements [responsive by default](http://unstoppablerobotninja.com/entry/fluid-images)
   - Generic styling for IE9 and below browser warning
-- Conditionally loaded polyfills (in order) for IE8 and below
+- Polyfills for IE8 and below a la [ie-love](https://github.com/corysimmons/ie-love)
+  - One [uglified](https://github.com/mishoo/UglifyJS) inline script (no request)
+  - Conditionally loaded so only IE8 and below users will have to download it (even though it's only 25kb)
   - [html5shiv](https://github.com/aFarkas/html5shiv)
   - [calc-polyfill](https://github.com/closingtag/calc-polyfill)
   - [jQuery 1.x.x](https://jquery.com/download/)
   - [Selectivizr 2](https://github.com/corysimmons/selectivizr2)
   - [Respond.js](https://github.com/scottjehl/Respond)
 
-### Installation (optional)
-You can easily grab a zip of this, or clone it, every time you want to create a new project. **Or** you can make use of the command line tool, [boy-npm](https://github.com/corysimmons/boy-npm), to quickly create Boy projects on-the-fly.
+### Installation
+You can easily grab a zip of this, or clone it, every time you want to create a new project **or** you can make use of [boy-npm](https://github.com/corysimmons/boy-npm) to quickly create projects.
 
 - `npm install -g boy`
 - `boy foo` to install to the `foo` directory
