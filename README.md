@@ -12,10 +12,10 @@ Boy comes with a handy [project launcher](#installation) so you can just `boy fo
 
 ### Features
 - A lightweight/2-space batch of [HTML5 Boilerplate](https://h5bp.com) features
-  - [index.html](https://github.com/h5bp/html5-boilerplate/blob/master/dist/index.html)
-  - [.editorconfig](https://github.com/h5bp/html5-boilerplate/blob/master/dist/.editorconfig) (modified to 2 spaces)
-  - [.htaccess](https://github.com/h5bp/html5-boilerplate/blob/master/dist/.htaccess)
-  - [crossdomain.xml](https://github.com/h5bp/html5-boilerplate/blob/master/dist/crossdomain.xml)
+  - [index.html](index.html) (with all the fluff removed)
+  - [.editorconfig](.editorconfig) (modified to 2 spaces)
+  - [.htaccess](.htaccess)
+  - [crossdomain.xml](crossdomain.xml)
 - Minified and sourcemapped :rage3: [reeeset](https://github.com/corysimmons/reeeset) ([Normalize.css](https://necolas.github.io/normalize.css) for the real world)
 - Polyfills for IE8 and below a la :heart: [ie-love](https://github.com/corysimmons/ie-love)
   - One [uglified](https://github.com/mishoo/UglifyJS) inline script (no request)
