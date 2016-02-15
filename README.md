@@ -44,7 +44,7 @@ Modernizr isn't included by default for a few reasons.
 - [npm as a Build Tool](http://blog.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool)
   - [npm-run-all](https://github.com/mysticatea/npm-run-all)
   - [BrowserSync](https://browsersync.io)
-  - [node-sass](https://github.com/sass/node-sass)
+  - [node-sass](https://github.com/sass/node-sass) + [postcss-scss](https://github.com/postcss/postcss-scss)
 - [Learn/Use ES2015](https://babeljs.io/docs/learn-es2015/)
   - [StandardJS](https://github.com/feross/standard) code style.
   - [Rollup](http://rollupjs.org/) or [Webpack **2**](https://github.com/webpack/webpack) for tree shaking.
