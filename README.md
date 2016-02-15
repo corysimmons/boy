@@ -3,12 +3,17 @@
 </p>
 
 <p align="center">
-  A very opinionated, lightweight, up-to-date, version of HTML5 Boilerplate with conditionally loaded polyfills and a nice general CSS reset for amazing CSS3 support in older browsers.
+  A very opinionated, lightweight, version of HTML5 Boilerplate with conditionally-loaded polyfills and an opinionated CSS reset for firing up web projects in no time.
 </p>
 
 ---
 
-Boy comes with a handy [project launcher](#installation) so you can just `boy foo` to create a `foo` directory with all the relevant files pulled freshly from this repo.
+Boy comes with a handy project launcher so you can spin up a Boy boilerplate with all the relevant files pulled freshly from this repo:
+
+```fish
+$ npm i -g boy
+$ boy foo
+```
 
 ### Features
 - A lightweight/2-space batch of [HTML5 Boilerplate](https://h5bp.com) features
@@ -16,22 +21,17 @@ Boy comes with a handy [project launcher](#installation) so you can just `boy fo
   - [.editorconfig](.editorconfig) (modified to 2 spaces)
   - [.htaccess](.htaccess)
   - [crossdomain.xml](crossdomain.xml)
-- Minified and sourcemapped :rage3: [reeeset](https://github.com/corysimmons/reeeset) ([Normalize.css](https://necolas.github.io/normalize.css) for the real world)
+  - Harsher outdated browser warning (warns on IE9 instead of IE8)
+- Minified and sourcemapped :rage3: [reeeset](https://github.com/corysimmons/reeeset) (opinionated [Normalize.css](https://necolas.github.io/normalize.css) for the real world)
 - Polyfills for IE8 and below a la :heart: [ie-love](https://github.com/corysimmons/ie-love)
-  - One [uglified](https://github.com/mishoo/UglifyJS) inline script (no request)
-  - Conditionally loaded so only IE8 and below users will have to download it (even though it's only 25kb)
+  - Conditionally loaded so only IE8 and below users will have to download it (even though it's only 25kb uglified)
   - [html5shiv](https://github.com/aFarkas/html5shiv) (in the right place)
   - [calc-polyfill](https://github.com/closingtag/calc-polyfill)
   - [jQuery 1.x.x](https://jquery.com/download/)
   - [Selectivizr 2](https://github.com/corysimmons/selectivizr2)
   - [Respond.js](https://github.com/scottjehl/Respond)
-
-### Installation
-You can easily grab a zip of this, or clone it, every time you want to create a new project **or** you can make use of [boy-npm](https://github.com/corysimmons/boy-npm) to quickly create projects.
-
-- `npm install -g boy`
-- `boy foo` to install to the `foo` directory
-- `boy .` to install to the current directory
+- Empty/valid package.json for quick `npm install --save-dev`s
+- `.gitignore` for Node and Bower
 
 ### Where's Modernizr?
 Modernizr isn't included by default for a few reasons.
