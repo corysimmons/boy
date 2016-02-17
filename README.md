@@ -16,7 +16,7 @@ $ boy foo
 ```
 
 ### Features
-- A lightweight/2-space batch of [HTML5 Boilerplate](https://h5bp.com) features
+- A lightweight/2-space batch of [HTML5 Boilerplate](https://html5boilerplate.com) features
   - [index.html](index.html) (with all the fluff removed)
   - [.editorconfig](.editorconfig) (modified to 2 spaces)
   - [.htaccess](.htaccess)
