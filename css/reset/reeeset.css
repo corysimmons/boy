@@ -1,4 +1,4 @@
-/*! reeeset.css 0.0.6 - https://github.com/corysimmons/reeeset */
+/*! reeeset.css 0.0.7 - https://github.com/corysimmons/reeeset */
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 
 /**
@@ -477,6 +477,8 @@ table {
 
   color: #fff;
   background: #333;
+
+  line-height: 1.5;
 }
 
 .browserupgrade a {
