@@ -8,6 +8,8 @@
 
 ---
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/corysimmons/boy.svg)](https://greenkeeper.io/)
+
 Boy comes with a handy project launcher so you can spin up a Boy boilerplate with all the relevant files pulled freshly from this repo:
 
 ```fish
