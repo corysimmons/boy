@@ -1,3 +1,5 @@
+> # ⚠️ I gave the `boy` npm package name to someone else. Don't use it for this project anymore!
+
 <p align="center">
   <img src="http://corysimmons.github.io/boy/boy-logo.svg" height="300px">
 </p>
@@ -11,7 +13,7 @@
 Boy comes with a handy project launcher so you can spin up a Boy boilerplate with all the relevant files pulled freshly from this repo:
 
 ```fish
-$ npm i -g boy
+$ # npm i -g boy <-- THIS NO LONGER WORKS. I GAVE THIS NPM PACKAGE NAME TO SOMEONE ELSE
 $ boy foo
 ```
 
